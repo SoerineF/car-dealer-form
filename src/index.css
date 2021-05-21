@@ -1,13 +1,90 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eceff5;
+}
+.App{
+  background: #ffffff;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+  border-radius: 25px;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #456dc2;
+  border-radius: 25px !important;
+}
+.navbar h1{
+  margin: 10px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-list{
+  margin: 100px 20px;
+  padding-bottom:20px;
+}
+.form-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.form-list li{
+  background: #eceff1;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.form-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.form-list .frontname{
+  font-size: 0.9em;
+  color: #111;
+}
+.form-list .lastname{
+  font-size: 0.9em;
+  color: #111;
+}
+.form-list .cpr{
+  font-size: 0.9em;
+  color: #111;
+}
+.empty{
+  color: rgb(46, 44, 44);
+  margin: 20px;
+  text-align: center;
+  padding-bottom:100px;
+}
+
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #eceff1;
+  color: #111;
+  border: 0;
+}
+
+input[type='submit']{
+  margin: 10px auto;
+  background: #456dc2;
+  border: 0;
+  color:#fff;
+  padding: 6px 20px;
+  display: block;
+  height:2.5rem;
+  width:50%;
+  font-weight:bold;
+  border-radius: 25px;
 }
